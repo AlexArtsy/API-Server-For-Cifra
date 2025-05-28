@@ -96,7 +96,11 @@ exports.getMe = async (req, res) => {
         email: user.email,
         role: user.role,
         firstName: user.firstName,
-        lastName: user.lastName
+        lastName: user.lastName,
+        avatar: user.avatar,
+        gender: user.gender,
+        phone: user.phone,
+        about: user.about,
       }
     });
   } catch (error) {
